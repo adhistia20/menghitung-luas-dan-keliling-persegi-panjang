@@ -1,0 +1,27 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main(){
+	int p;
+	int l;
+	int bilangan;
+	cout <<"panjang: ";
+	cin>>p;
+	cout <<"lebar: ";
+	cin>>l;
+	float L = p*l;
+	float K = 2*(p+l);
+	
+	cout <<"luas:" << L << endl;
+	cout <<"keliling:" << K << endl;
+	
+	cin >> bilangan;
+	if (bilangan%2==0){
+		cout << "bilangan genap";
+	}else 
+	cout << "bilangan ganjil";
+	
+	return 0;
+}
